@@ -6,9 +6,8 @@
 
 body
 {
-    background-color: antiquewhite;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h1
@@ -31,20 +30,90 @@ h2
     justify-content: center;
 }
 
-table
-{
-    display: flex;
-    justify-content: center;
-}
-
 img
 {
     border-radius: 50%;
     align-content: center;
 }
 
-footer
-{
-    margin-top: 40px;
+p {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table td, table th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+#Image {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Work experience */
+#work-experience {
+    margin-bottom: 50px;
+}
+
+#work-experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#work-experience ul li {
+    margin-bottom: 20px;
+}
+
+#work-experience strong {
+    font-weight: bold;
+}
+
+/* Education */
+#education {
+    margin-bottom: 50px;
+}
+
+#education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#education ul li {
+    margin-bottom: 20px;
+}
+
+#education strong {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
     text-align: center;
+    margin-top: 50px;
 }
